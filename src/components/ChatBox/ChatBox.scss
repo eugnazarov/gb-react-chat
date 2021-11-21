@@ -1,0 +1,33 @@
+.box {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+
+  width: 70%;
+  height: 70%;
+
+  &__sender {
+    flex: 1;
+    width:100%;
+  }
+
+  &__messages-container{
+    overflow: auto;
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    background-color: rgba(204, 204, 204, 0.28);
+
+  }
+
+}
+
+
