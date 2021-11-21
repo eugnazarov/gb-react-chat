@@ -1,0 +1,25 @@
+.message {
+  border-radius: 15px;
+  background-color: rgba(134, 215, 173, 0.69);
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  padding: 10px;
+
+  &-robot {
+    background-color: #fff;
+    align-self: flex-end;
+  }
+
+  &__author {
+
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    border-bottom: 1px solid black;
+  }
+
+  &__text {
+    font-size: 22px;
+  }
+}
